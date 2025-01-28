@@ -29,6 +29,6 @@ All parameters are optional, see below for more information:
 | `title` | String | "Awesome Title" |
 | `id` | HTML ID compiliant String | "awesome-title" |
 | `content` | String or HTMLElement | "<b>Hello, World!</b>" |
-| `onCreated` | Function | ()=>{alert("Hey");} |
+| `onCreated` | Function<HTMLDivElement> | (window)=>{ ... } |
 
-Use **onCreated** to add event listeners to inputs/buttons.
+Use **onCreated** to add event listeners to inputs/buttons. Takes in the generated gloe-window
