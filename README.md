@@ -3,8 +3,8 @@ Gloe is a library for creating window style debugging tools on the fly.
 
 ### Usage
 1. Pick Gloe CDN link (or self host, it doesnt matter)
-```diff
---- Pick from one of these:
+```py
+# Pick from one of these:
 https://rawcdn.githack.com/klashdevelopment/gloe/main/gloe.js
 https://raw.githack.com/klashdevelopment/gloe/refs/heads/main/gloe.js
 https://raw.githubusercontent.com/klashdevelopment/gloe/refs/heads/main/gloe.js
