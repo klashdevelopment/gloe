@@ -7,11 +7,12 @@ if (window.gloe) { console.error("Gloe already initialized in this environment!"
     font-family: InterVariable;
     height: 200px;
     position: absolute;
+    color: white;
     top: 10px;
     left: 10px;
-    background: #ffffff10;
+    background: #0000009f;
     backdrop-filter: blur(40px);
-    border: 2px solid #ffffff50;
+    border: 2px solid #00000050;
     border-radius: 6px;
 }
 .gloe-topbar {
@@ -25,6 +26,8 @@ if (window.gloe) { console.error("Gloe already initialized in this environment!"
     font-family: KlashLegacy;
     box-sizing: border-box;
     user-select: none;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
 }
 .gloe-title {
     width: 70%;
