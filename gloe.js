@@ -107,7 +107,7 @@ if (window.gloe) { console.error("Gloe already initialized in this environment!"
             const windowElement = document.createElement("div");
             windowElement.className = "gloe-window";
             windowElement.id = id || `gloewindow-${Math.floor(Date.now() * Math.random())}`;
-            windowElement.style.position = "absolute";
+            windowElement.style.position = "fixed";
             const topbar = document.createElement("div");
             topbar.className = "gloe-topbar";
             const titleSpan = document.createElement("span");
