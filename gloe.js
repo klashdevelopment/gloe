@@ -4,7 +4,7 @@ if (window.gloe) { console.error("Gloe already initialized in this environment!"
 @import url("https://legacy.klash.dev/legacy.css");
 .gloe-window {
     width: 400px;
-    z-index: 9999;
+    z-index: 99999;
     font-family: InterVariable, Inter;
     height: 200px;
     position: fixed;
