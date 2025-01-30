@@ -87,7 +87,7 @@ if (window.gloe) { console.error("Gloe already initialized in this environment!"
 
             document.addEventListener("mouseup", () => (isDragging = false));
         },
-
+        loadGoogleFont(fonts){document.head.appendChild(Object.assign(document.createElement("link"), { rel: "stylesheet", href: `https://fonts.googleapis.com/css2?${fonts.map(f => `family=${f.name.replace(/\s+/g, '+')}:wght@${f.weights.join(';')}`).join('&')}&display=swap` }));},
         create(props) {
             const { id, title, content, onCreated } = props;
             const windowElement = document.createElement("div");
