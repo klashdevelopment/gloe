@@ -7,7 +7,7 @@ if (window.gloe) { console.error("Gloe already initialized in this environment!"
     z-index: 9999;
     font-family: InterVariable, Inter;
     height: 200px;
-    position: absolute;
+    position: fixed;
     color: white;
     top: 10px;
     left: 10px;
