@@ -2,16 +2,16 @@
 Gloe is a library for creating window style debugging tools on the fly.
 
 ### Usage
-1. Pick Gloe CDN link (or self host, it doesnt matter)
+1. Pick Gloe CDN link (or self host, it doesnt matter) - You can replace gloe.min.js with gloe.js if needed
 ```py
 # Pick from one of these:
-https://rawcdn.githack.com/klashdevelopment/gloe/main/gloe.js
-https://raw.githack.com/klashdevelopment/gloe/refs/heads/main/gloe.js
-https://raw.githubusercontent.com/klashdevelopment/gloe/refs/heads/main/gloe.js
+https://rawcdn.githack.com/klashdevelopment/gloe/main/gloe.min.js
+https://raw.githack.com/klashdevelopment/gloe/refs/heads/main/gloe.min.js
+https://raw.githubusercontent.com/klashdevelopment/gloe/refs/heads/main/gloe.min.js
 ```
 2. Fetch gloe to register
 ```js
-fetch('https://raw.githubusercontent.com/klashdevelopment/gloe/refs/heads/main/gloe.js')
+fetch('https://raw.githubusercontent.com/klashdevelopment/gloe/refs/heads/main/gloe.min.js')
     .then(gloeScript => gloeScript.text())
     .then(gloeScript => eval(gloeScript))
     .then(_ => {
