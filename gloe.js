@@ -63,6 +63,19 @@ if (window.gloe) { console.error("Gloe already initialized in this environment!"
     scrollbar-width: thin;
     margin: 0px 3px;
     box-sizing: border-box;
+}
+.gloe-content button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 25px;
+    width: auto;
+    padding: 0 2px;
+    flex-direction: row;
+    gap: 2px;
+    background: #1113;
+    border: 2px solid #ffffff60;
+    border-radius: 6px;
 }`;
     document.body.insertAdjacentElement('beforeend', gloeStyleElement);
     window.gloe = {
