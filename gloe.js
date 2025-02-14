@@ -76,6 +76,9 @@ if (window.gloe) { console.error("Gloe already initialized in this environment!"
     background: #1113;
     border: 2px solid #ffffff60;
     border-radius: 6px;
+}
+.gloe-content button:focus-within, .gloe-content input:focus-within {
+    outline: none;
 }`;
     document.body.insertAdjacentElement('beforeend', gloeStyleElement);
     window.gloe = {
