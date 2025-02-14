@@ -64,7 +64,7 @@ if (window.gloe) { console.error("Gloe already initialized in this environment!"
     margin: 0px 3px;
     box-sizing: border-box;
 }
-.gloe-content button {
+.gloe-content button, .gloe-content input {
     display: flex;
     align-items: center;
     justify-content: center;
